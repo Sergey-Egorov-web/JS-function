@@ -1,2 +1,2 @@
 # JS-function
-Solving CodeWaes Kata
+Solving CodeWaкs Kata
