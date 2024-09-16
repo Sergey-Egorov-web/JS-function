@@ -1,3 +1,79 @@
+function switchOfStuff(val) {
+  let answer = "d";
+  // Only change code below this line
+  switch (answer) {
+    case "a":
+      "apple";
+      break;
+    case "b":
+      "bird";
+      break;
+    case "c":
+      "cat";
+      break;
+    default:
+      "stuff";
+      break;
+  }
+
+  // Only change code above this line
+  //  return answer;
+  console.log(answer);
+}
+
+switchOfStuff(1);
+
+//__________________________________________________________
+/* let games = new Array("3:1", "2:2", "0:1");
+let scores = 0;
+for (let i = 0; i < games.length; i++) {
+  if (games[i].charAt(0) > games[i].charAt(2)) {
+    scores += 3;
+  } else if (games[i].charAt(0) == games[i].charAt(2)) {
+    scores += 1;
+  }
+}
+console.log(scores); */
+
+//___________________________________________________________
+/* let arr1 = new Array(2, 5, 7, 15);
+let arr2 = new Array(12, 51, 17, 85);
+console.log(arr1);
+
+console.log(arr2);
+
+let arr3 = arr1.concat(arr2);
+
+console.log(arr3);
+
+let sum = arr3.reduce((prev, current) => (prev += current));
+
+console.log(sum);  */
+
+//_____________________________________________________________
+/* let str = "";
+const num = 3;
+let array = new Array();
+for (let i = 0; i < num; i++) {
+  str += `${i + 1} sheep...`;
+}
+
+console.log(str); */
+
+//______________________________________________________________
+
+/* year = 1700;
+let num = year / 100;
+
+console.log(num);
+let remains = year % 100;
+if (remains == 0) {
+  console.log(num);
+} else console.log(Math.ceil(num));
+*/
+//_________________________________________________________________
+/*
+
 function minimum(list) {
   let min = 0;
   console.log(list.length);
@@ -26,6 +102,8 @@ console.log(array);
 
 minimum(array);
 maximum(array);
+
+*/
 
 //____________________________________________________________
 /*
